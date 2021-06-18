@@ -1,0 +1,22 @@
+app-imovel-card{
+  margin: 5px;
+  display: flex;
+  box-sizing:inherit;
+  justify-content: space-evenly;
+
+}
+.btn{
+  margin: 20px;
+  display: flex;
+  box-sizing:inherit;
+  justify-content: space-between;
+}
+
+button {
+  height:50px;
+  width:50px;
+  background-color: rgba(128, 128, 128, 0.658);
+  border:none;
+  border-radius: 25%;
+}
+

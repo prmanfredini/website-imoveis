@@ -1,0 +1,13 @@
+<!--  <app-imovel-card *ngFor="let item of listaDeImoveis" [imovel]="item"></app-imovel-card>  -->
+
+<div class="conteiner" *ngFor="let item of listaDeImoveis; let i = index">
+  <span *ngIf="getCard() == i">
+    <app-imovel-card  [imovel]="item"></app-imovel-card>
+  </span>
+
+</div>
+
+<div class=btn >
+  <button id=prev (click)="prev()"><</button>
+  <button id=next (click)="next()">></button>
+</div>
